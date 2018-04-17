@@ -1,0 +1,115 @@
+#header {
+    top: 15px;
+    width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+#header_utils {
+	float: right;
+	margin-right:20px;
+}
+
+div.image_account {
+	height:46px;
+	width:32px;
+	background-image:url(../images/D_account.png);
+	background-size : 32px 46px;
+}
+
+div.image_mail {
+	height:46px;
+	width:98px;
+	background-image:url(../images/D_mail.png);
+	background-size : 98px 46px;
+}
+
+#logo{
+	height: ;
+	width: ;
+	margin-top: 150px;
+	text-align: center;
+	float: none;
+}
+
+#search_div{
+	margin-top: 50px;
+	text-align: center;
+	float: none;
+	width: 100%;
+}
+
+#search_bar{
+	width: 30%;
+	height: 30px;
+	
+	letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+	outline:none;
+    
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.shadow {
+  -moz-box-shadow:    1px 1px 1px 1px #ccc;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow:         1px 1px 1px 1px #ccc;
+}
+
+#window_tab {
+	width:100% ;
+	margin-top: 100px;
+}
+
+#window:first-child {
+	margin-left:200px;
+}
+
+#window {
+	width : 200px;
+	height: 100px;
+	display:block;
+	margin-left: 100px;
+	float: left;
+}
+
+#window_title {
+}
+#window_title{
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+
+#window_content.social_network{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/NeSA_logo.png);
+	background-size: 205px 100px;
+}
+
+#window_content.mail_service{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/D_mail.png);
+	background-size: 205px 100px;
+}
+
+#window_content.music_service{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/);
+	background-size: 205px 100px;
+}
+
+
+#window:hover #window_content {
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
